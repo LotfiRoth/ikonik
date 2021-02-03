@@ -1,0 +1,30 @@
+.user-dashboard-menu {
+    margin:0;
+    padding: 0;
+    width: 100vw;
+    justify-content: center;  
+    background-color: #fffeff !important;
+    box-shadow: none !important;
+}
+
+.user-dashboard-menu ul {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+
+.user-dashboard-menu .nav-link {
+    margin: 0 1rem 0 1rem;
+    padding:.3rem;
+    text-transform: capitalize ;
+    color: #030303; 
+    text-shadow: .012rem .012rem #ededed; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem !important;
+    letter-spacing: 0.07rem;
+}
+
+.user-dashboard-menu .nav-link:hover {
+    color: #7FEA60;
+}
+

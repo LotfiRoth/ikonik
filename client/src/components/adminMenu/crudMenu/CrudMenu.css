@@ -1,0 +1,35 @@
+.admin-crud-menu {
+    margin:0;
+    padding: 0;
+    height: 100%;
+    justify-content: left;  
+    background-color: #fffeff !important;
+    box-shadow: none !important;
+}
+
+.admin-crud-menu .sidebar {
+    position: fixed;
+    top: 9vh;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding-top: 7rem;
+    background-color: #fffeff !important;
+    border-right:0.1rem solid #ededed;
+    width: 12vw;
+  }
+
+.admin-crud-menu .nav-link {
+    margin: .9rem 1.8rem .9rem 1.8rem;
+    padding:.3rem;
+    text-transform: capitalize ;
+    color: #030303; 
+    text-shadow: .012rem .012rem #ededed; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem !important;
+    letter-spacing: 0.07rem;
+}
+
+.admin-crud-menu .nav-link:hover {
+    color: #7FEA60;
+}

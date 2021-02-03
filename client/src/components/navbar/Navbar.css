@@ -1,0 +1,98 @@
+/* GENERAL NAVBAR */
+
+.navbar-custom {
+    background-color: #fffeff !important;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 9vh;
+}
+
+.navbar {
+    box-shadow: none !important;
+}
+
+.navbar-collapse.show {
+    width: 70vw;
+    padding-left: 1.2rem;
+}
+
+.navbar .nav-link, .navbar .dropdown-item { 
+    margin: 0;
+    padding: 0.7rem;
+    color: #9A999C; 
+    text-shadow: .012rem .012rem #ededed; 
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem !important;
+    letter-spacing: 0.07rem;
+    border-bottom: transparent solid 0.12rem;
+}
+
+/* NAVBAR MAIN MENU */
+.navbarCenter {
+    margin: 0;
+    padding:0;
+    width: 67%;
+    justify-content: space-evenly;
+}
+
+.navbar .navbarCenter .nav-link:hover, .navbar .dropdown-item:hover {
+    color: #030303;
+    border-bottom: #7FEA60 solid 0.12rem;
+    background: none;
+}
+
+/* NAVBAR LOGO */
+.navbarLeft{
+    width: 25%;
+}
+
+/* NAVBAR USER MENU */
+.navbarRight {
+    justify-content: flex-end;
+    width: 33%;
+
+}
+
+.navbar .navbarRight .nav-link, .navbar .navbarLeft .nav-link {
+    margin: 0 .7rem 0 .7rem;
+ }
+
+.navbar .navbarRight .nav-link:hover, .navbar .navbarLeft .nav-link:hover {
+    color: #7FEA60;
+ }
+
+/* USER NAVBAR MENU DROPDOWN */
+.navbar .nav-item .dropdown-menu {  
+    display:block; 
+    opacity: 0;  
+    visibility: hidden; 
+    margin-top:0;  
+}
+
+.navbar .nav-item:hover .dropdown-menu { 
+    opacity:1; 
+    visibility:visible; 
+    top:100%; 
+    transform: rotateX(0deg); 
+}
+
+
+
+@media all and (min-width: 992px) {
+    .navbar .nav-link{
+        margin: 1.2rem;
+    }
+    .smallScreen {
+        display: none;
+    }
+}	
+
+@media all and (max-width: 992px) {
+    .largeScreen {
+        display: none;
+    }
+}
+
+
